@@ -1,0 +1,12 @@
+-- product 테이블 생성코드
+create table product(
+	p_id varchar(10) not null primary key,
+	p_name varchar(20),
+	p_price integer,
+	p_description varchar(200),
+	p_manufacturer varchar(20),
+	p_category varchar(20),
+	p_stock long,
+	p_state varchar(20),
+	p_filename varchar(20)
+);
