@@ -79,7 +79,7 @@
 			<div class="form-group row">
 				<label class="col-sm-2">E-mail&nbsp;<b id="important">*</b></label>
 				<div class="col-sm-4">
-					<input type="text" name="email" value="<%=rs.getString("mail")%>">
+					<input type="text" name="email" value="<%=rs.getString("email")%>">
 				</div>
 			</div>
 			<div class="form-group row">

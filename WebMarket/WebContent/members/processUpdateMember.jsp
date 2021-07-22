@@ -30,7 +30,7 @@
 	
 	if(rs.next()){
 	
-		sql = "update members set password=?, name=?, birthday=?, mail=?, phone=?, address_postcode=?, address_address=?, address_detailAddress=?, address_extraAddress=? where id=?";
+		sql = "update members set password=?, name=?, birthday=?, email=?, phone=?, address_postcode=?, address_address=?, address_detailAddress=?, address_extraAddress=? where id=?";
 		
 		pstmt = conn.prepareStatement(sql);
 		pstmt.setString(1, password);

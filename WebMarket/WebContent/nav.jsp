@@ -39,9 +39,9 @@
 						</c:when>
 						<c:otherwise>
 							<li class="nav-item"><a class="nav-link" href="index.jsp?contentPage=products.jsp">상품 목록</a></li>
-							<li class="nav-item"><a class="nav-link" href="addProduct.jsp">상품 등록</a></li>
-							<li class="nav-item"><a class="nav-link" href="editProduct.jsp?edit=update">상품 수정</a></li>
-							<li class="nav-item"><a class="nav-link" href="editProduct.jsp?edit=delete">상품 삭제</a></li>
+							<li class="nav-item"><a class="nav-link" href="index.jsp?contentPage=addProduct.jsp">상품 등록</a></li>
+							<li class="nav-item"><a class="nav-link" href="index.jsp?contentPage=editProduct.jsp?edit=update">상품 수정</a></li>
+							<li class="nav-item"><a class="nav-link" href="index.jsp?contentPage=editProduct.jsp?edit=delete">상품 삭제</a></li>
 						</c:otherwise>
 					</c:choose>
 					<li class="nav-item"><a class="nav-link" href="BoardListAction.do?pageNum=1">게시판</a></li>
