@@ -1,9 +1,9 @@
 # WebMarket Project
 프로젝트기간 : 21.06.27~21.07.20
 
-주소 : http://3.35.235.65:8080/WebMarket/index.jsp
-관리자 ID : admin
-관리자 PW : 123456
+주소 : http://3.35.235.65:8080/WebMarket/index.jsp <br>
+관리자 ID : admin <br>
+관리자 PW : 123456 <br>
 
 <br>
 
